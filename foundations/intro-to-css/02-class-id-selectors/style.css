@@ -1,0 +1,53 @@
+/*
+.num1,
+.num3,
+.num5 {
+    background-color: rgb(220, 100, 155);
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+}
+
+#num2 {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+.num3 {
+    font-size: 24px;
+}
+
+#num4 {
+    background-color: rgb(50, 205, 120);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+The above solution by me works, but there is some duplicate code
+it would have been better to group duplicate class names together (ie odd)
+instead of giving every class a different name and selecting multiple names
+in the CSS file.
+
+I could have also had a class for the duplicate font size in the id's
+Similar to the solution.
+
+Below I will re-attempt the solution
+*/
+
+.odd {
+    background-color: rgb(220, 100, 155);
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+}
+
+.font-size {
+    font-size: 24px;
+}
+
+#div1 {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#div2 {
+    background-color: rgb(50, 205, 120);
+    font-weight: bold;
+}
