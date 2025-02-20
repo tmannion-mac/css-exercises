@@ -1,0 +1,15 @@
+.on-click,
+.other-click {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+}
+.on-click {
+    background-color: black;
+    color: #ffffff;
+}
+.other-click {
+    background-color: rgb(195, 255, 0)
+}
+/* I found this one easier to understand, having unique class names and then 
+grouping them is easier but can lead to big CSS files compared to having
+only 1 class for multiple similar elements */
